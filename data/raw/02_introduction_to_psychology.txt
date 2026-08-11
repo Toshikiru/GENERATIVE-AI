@@ -1,0 +1,277 @@
+SOURCE: https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/pages/syllabus/syllabus/
+LICENSE: Creative Commons (MIT OpenCourseWare)
+
+Syllabus | Introduction to Psychology | Brain and Cognitive Sciences | MIT OpenCourseWare
+Browse Course Material
+Syllabus
+Meet Professor John Gabrieli
+Meet the TAs
+Open Textbook
+Instructor Insights
+Structuring a Broad Survey Course
+Crafting Lectures That Inspire and Inform
+Bringing Demonstrations into the Classroom
+Maintaining Currency in a Rapidly Evolving Field
+Teaching Students to Evaluate Research
+Introduction
+Science & Research
+Brain I: Structure and Functions
+Brain II: Methods of Research
+Discussion: Brain
+Vision I
+Vision II
+Discussion: Vision
+Writing Assignment 1
+Consciousness
+Attention
+Discussion: Attention
+Exam 1
+Memory I
+Learning
+Discussion: Learning
+Memory II: Amnesia and Memory Systems
+Discussion: Memory
+Language
+Discussion: Language
+Thinking
+Intelligence
+Discussion: Thinking & Intelligence
+Emotion & Motivation
+Discussion: Emotion
+Exam 2
+Personality
+Discussion: Personality
+Child Development
+Writing Assignment 2
+Adult Development
+Discussion: Development
+Stress
+Discussion: Stress
+Psychopathology I
+Psychopathology II
+Discussion: Psychopathology
+Extra Credit  Writing Assignment
+Social Psychology I
+Social Psychology II
+Discussion: Social Psychology
+Conclusions: Evolutionary Psychology, Happiness
+Exam 3
+Course Info
+Instructor
+Prof. John D. E. Gabrieli
+Departments
+Brain and Cognitive Sciences
+As Taught In
+Fall
+2011
+Level
+Undergraduate
+Topics
+Science
+Cognitive Science
+Social Science
+Psychology
+Learning Resource Types
+grading
+Exam Solutions
+grading
+Exams
+co_present
+Instructor Insights
+notes
+Lecture Notes
+theaters
+Lecture Videos
+menu_book
+Open Textbooks
+Download Course
+menu
+search
+Give Now
+About OCW
+Help & Faqs
+Contact Us
+search
+GIVE NOW
+about ocw
+help & faqs
+contact us
+9.00SC | Fall 2011 | Undergraduate
+Introduction to Psychology
+Menu
+More Info
+Syllabus
+Meet Professor John Gabrieli
+Meet the TAs
+Open Textbook
+Instructor Insights
+Structuring a Broad Survey Course
+Crafting Lectures That Inspire and Inform
+Bringing Demonstrations into the Classroom
+Maintaining Currency in a Rapidly Evolving Field
+Teaching Students to Evaluate Research
+Introduction
+Science & Research
+Brain I: Structure and Functions
+Brain II: Methods of Research
+Discussion: Brain
+Vision I
+Vision II
+Discussion: Vision
+Writing Assignment 1
+Consciousness
+Attention
+Discussion: Attention
+Exam 1
+Memory I
+Learning
+Discussion: Learning
+Memory II: Amnesia and Memory Systems
+Discussion: Memory
+Language
+Discussion: Language
+Thinking
+Intelligence
+Discussion: Thinking & Intelligence
+Emotion & Motivation
+Discussion: Emotion
+Exam 2
+Personality
+Discussion: Personality
+Child Development
+Writing Assignment 2
+Adult Development
+Discussion: Development
+Stress
+Discussion: Stress
+Psychopathology I
+Psychopathology II
+Discussion: Psychopathology
+Extra Credit  Writing Assignment
+Social Psychology I
+Social Psychology II
+Discussion: Social Psychology
+Conclusions: Evolutionary Psychology, Happiness
+Exam 3
+Syllabus
+Next
+»
+About this Course
+This course is designed to introduce you to the scientific study of human nature. You will learn how psychologists ask questions from several different perspectives: questions about the relation of brain and behavior, about perception, about learning and thinking, about development, about social behavior and personality, and about psychopathology and psychotherapy. You will also learn about the methods psychologists use to find the answers to these questions and become acquainted with many of the important findings and theoretical approaches in the field of psychology. By the time it&rsquo;s over, we hope that you will have learned to think critically about psychological evidence, and to evaluate its validity and its relevance to important issues in your life.
+Meet Prof. John Gabrieli
+Prerequisites and Preparation
+This introductory college undergraduate course has no specific course prerequisites. It designed to be most useful to people with knowledge of the following subjects at the level typically taught in U.S. high schools:
+Mathematics
+Experimental data collection and visual representations of data in graphs and tables
+Basic probability and statistics: e.g. average, median, distribution, variance
+Natural sciences
+Biology of the human nervous system
+Physics of light and sound
+Literacy
+Ability to read and effectively use textbooks
+Course Components and Requirements
+This course consists of the following components:
+Assigned readings
+Lectures
+Small-group discussion sections
+Three exams
+Writing assignments
+Assigned Readings
+Assigned readings are provided for each class session. You should do the reading prior to watching the lecture video and subsequent activities.
+You may use either of the following psychology textbooks. For each class session, we have listed the equivalent readings in each book. Some chapters span multiple lectures, for which you might begin by skimming the entire chapter and then read the relevant sections.
+TEXTBOOK
+DESCRIPTION
+[K&R] = Kosslyn, Stephen M., and Robin S. Rosenberg.
+Introducing Psychology: Brain, Person, Group
+. 4th Edition. Pearson Education, 2010. ISBN: 9780558882846.
+This textbook is used by students enrolled in the class at MIT. It presents a large amount of material at a fairly demanding reading level.
+While OCW cannot provide online access to this book, we do present for each class session:
+Study outlines of each chapter prepared by one of the course TAs.
+&ldquo;Further Study&rdquo; links to
+supplemental study materials
+for a related textbook by the same authors.
+[Stangor] = Stangor, Charles.
+Introduction to Psychology
+.
+2010. (Courtesy of Charles Stangor and the Saylor Foundation.)
+This Creative Commons-licensed text is a free online alternative to the Kosslyn and Rosenberg text used in the class at MIT.
+Some class sessions also include reading assignments in:
+[Sacks] = Sacks, Oliver.
+The Man Who Mistook His Wife For A Hat
+. Simon & Schuster, 1998. ISBN: 9780684853949.
+Lectures
+Videos of the twice-weekly lectures are provided.  For your convenience, each lecture can be viewed in a sequence of shorter chapters, or as a single continuous program.  Lecture slides and some supporting resources (e.g. video clips and handouts used in class) are also provided.
+Discussion Sections
+At MIT, the twice-weekly lectures are complemented by a weekly small group discussion section led by a teaching assistant. We present selected material from these discussions on about half of the lecture pages, starting with
+Discussion: Brain
+. This content includes transcripts of short talks by TA Tyler Perrachione, additional Check Yourself quiz content, and bigger Think About questions to ponder and discuss with your friends.
+Exams
+Each exam covers about a third of the course material; the exams are
+not
+cumulative. Each exam consists of multiple-choice questions and short-answer questions based on the text and lectures. A solution key is provided for each exam, so that you can check your answers. Additional exam questions from other years are also provided as study aids.
+Writing Assignments
+At MIT, enrolled students are given two substantial writing assignments during the semester, plus an optional Extra Credit assignment. Each is an original analysis of a few scientific source readings on a controversial topic in psychology.
+Writing Assignment 1
+: Are studies of cognitive and emotional developments in adolescents useful for setting public policy guidelines, such as juvenile access to abortion and the juvenile death penalty?
+Writing Assignment 2
+: Are “recovered” memories real memories or false memories?
+Extra Credit Writing Assignment
+: Is it ethical to use cognition-enhancing drugs?
+For the OCW student, we present these writing assignments as optional, in the spirit of &ldquo;further study.&rdquo; Due to copyright restrictions, OCW is only able to provide links to some of the source readings.
+Writing guidelines:
+Develop your own idea about what is the best interpretation of the findings you read about;
+Briefly summarize the main points of the controversy (about half a page to a page);
+Explain which position you find more convincing and why.
+Grading
+At MIT, grading was based on 60% from the exams, 30% from the two papers, and 10% on discussion section participation.
+Acknowledgements
+This course includes substantial contributions from several talented 9.00SC teaching assistants.
+Read more »
+Next
+»
+Course Info
+Instructor
+Prof. John D. E. Gabrieli
+Departments
+Brain and Cognitive Sciences
+As Taught In
+Fall
+2011
+Level
+Undergraduate
+Topics
+Science
+Cognitive Science
+Social Science
+Psychology
+Learning Resource Types
+grading
+Exam Solutions
+grading
+Exams
+co_present
+Instructor Insights
+notes
+Lecture Notes
+theaters
+Lecture Videos
+menu_book
+Open Textbooks
+Download Course
+Over 2,500 courses & materials
+Freely sharing knowledge with learners and educators around the world.
+Learn more
+© 2001–2026 Massachusetts Institute of Technology
+Accessibility
+Creative Commons License
+Terms and Conditions
+Proud member of:
+© 2001–2026 Massachusetts Institute of Technology
+You are leaving MIT OpenCourseWare
+close
+Please be advised that external sites may have terms and conditions,
+including license rights, that differ from ours. MIT OCW is not responsible
+for any content on third party sites, nor does a link suggest an endorsement
+of those sites and/or their content.
+Stay Here
+Continue

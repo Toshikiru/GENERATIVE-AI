@@ -1,0 +1,36 @@
+Video Introduction by Professor Strang
+Your browser does not support some features required to play this video.
+Please update your browser to the latest version for the best experience.
+You can also
+download the video
+to watch it offline.
+View video page
+Download video
+Download Transcript
+chevron_right
+chevron_left
+Back
+English (Default)
+Course Meeting Times
+Lectures: 3 sessions / week, 1 hour / session
+Prerequisites
+18.06 Linear Algebra
+Description
+Linear algebra concepts are key for understanding and creating machine learning algorithms, especially as applied to deep learning and neural networks. This course reviews linear algebra with applications to probability and statistics and optimization–and above all a full explanation of deep learning.
+Textbook
+Strang, Gilbert.
+Linear Algebra and Learning from Data
+.
+Wellesley-Cambridge Press
+, 2019. ISBN: 9780692196380.
+Professor Strang created
+a website for the book
+, including a link to the
+Table of Contents (PDF)
+, sample chapters, and essays on
+Deep Learning (PDF)
+and
+Neural Nets (PDF)
+.
+Requirements and Grading
+There are homework assignments, labs, and a final project. The grade is based on all three elements. NOTE to OCW USERS: The OCW site includes problems assigned for every lecture, aligned with readings in the course textbook. The on-campus students had weekly problem sets.

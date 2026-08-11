@@ -1,0 +1,119 @@
+SOURCE: https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/pages/syllabus
+LICENSE: Creative Commons (MIT OpenCourseWare)
+
+Syllabus | Statistics for Applications  | Mathematics | MIT OpenCourseWare
+Browse Course Material
+Syllabus
+Lecture Slides
+Lecture Videos
+Assignments
+Course Info
+Instructor
+Prof. Philippe Rigollet
+Departments
+Mathematics
+As Taught In
+Fall
+2016
+Level
+Undergraduate
+Topics
+Mathematics
+Probability and Statistics
+Learning Resource Types
+notes
+Lecture Notes
+theaters
+Lecture Videos
+assignment
+Problem Sets
+Download Course
+menu
+search
+Give Now
+About OCW
+Help & Faqs
+Contact Us
+search
+GIVE NOW
+about ocw
+help & faqs
+contact us
+18.650 | Fall 2016 | Undergraduate
+Statistics for Applications
+Menu
+More Info
+Syllabus
+Lecture Slides
+Lecture Videos
+Assignments
+Syllabus
+Course Meeting Times
+Lectures: 2 sessions / week, 1.5 hours / session
+Prerequisites
+Probability theory at the level of
+18.440 Probability and Random Variables
+. Some linear algebra (matrices, vectors, eigenvalues).
+Course Description
+This course offers an in-depth the theoretical foundations for statistical methods that are useful in many applications. The goal is to understand the role of mathematics in the research and development of efficient statistical methods. At the end of this course, students should be able to:
+Formulate a statistical problem in mathematical terms from a real-life situation
+Select appropriate statistical methods
+Understand the implications and limitations of various methods
+Topics Covered
+Introduction to Statistics
+Parametric Inference
+Maximum Likelihood Estimation
+The Method of Moments
+Parametric Hypothesis Testing
+Testing Goodness of Fit
+Regression
+Bayesian Statistics
+Principal Component Analysis
+Generalized Linear Models
+Grading Policy
+ACTIVITIES
+PERCENTAGES
+Homework
+20%
+Midterm Exam
+30%
+Final Exam
+50%
+Course Info
+Instructor
+Prof. Philippe Rigollet
+Departments
+Mathematics
+As Taught In
+Fall
+2016
+Level
+Undergraduate
+Topics
+Mathematics
+Probability and Statistics
+Learning Resource Types
+notes
+Lecture Notes
+theaters
+Lecture Videos
+assignment
+Problem Sets
+Download Course
+Over 2,500 courses & materials
+Freely sharing knowledge with learners and educators around the world.
+Learn more
+© 2001–2026 Massachusetts Institute of Technology
+Accessibility
+Creative Commons License
+Terms and Conditions
+Proud member of:
+© 2001–2026 Massachusetts Institute of Technology
+You are leaving MIT OpenCourseWare
+close
+Please be advised that external sites may have terms and conditions,
+including license rights, that differ from ours. MIT OCW is not responsible
+for any content on third party sites, nor does a link suggest an endorsement
+of those sites and/or their content.
+Stay Here
+Continue

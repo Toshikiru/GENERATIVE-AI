@@ -1,0 +1,216 @@
+SOURCE: https://ocw.mit.edu/courses/6-830-database-systems-fall-2010/pages/syllabus/
+LICENSE: Creative Commons (MIT OpenCourseWare)
+
+Syllabus | Database Systems | Electrical Engineering and Computer Science | MIT OpenCourseWare
+Browse Course Material
+Syllabus
+Calendar
+Readings
+The Relational Model
+Schema Design
+Introduction to Database Internals
+Database Operators and Query Processing
+Indexing and Access Methods
+Buffer Pool Design and Memory Management
+Join Algorithms
+Query Optimization
+Transactions and Locking
+Optimistic Concurrency Control
+Recovery
+Recovery (cont.)
+Degrees of Consistency
+C-Store
+Distributed Transactions
+Parallel Databases
+Scientific Databases
+NOSQL
+ORM, DryadLINQ
+Lecture Notes
+Assignments
+Final Project
+Exams
+Course Info
+Instructors
+Prof. Samuel Madden
+Prof. Robert Morris
+Prof. Michael Stonebraker
+Dr. Carlo Curino
+Departments
+Electrical Engineering and Computer Science
+As Taught In
+Fall
+2010
+Level
+Graduate
+Undergraduate
+Topics
+Business
+Information Technology
+Engineering
+Computer Science
+Algorithms and Data Structures
+Data Mining
+Software Design and Engineering
+Learning Resource Types
+grading
+Exam Solutions
+grading
+Exams
+notes
+Lecture Notes
+assignment
+Programming Assignments
+Download Course
+menu
+search
+Give Now
+About OCW
+Help & Faqs
+Contact Us
+search
+GIVE NOW
+about ocw
+help & faqs
+contact us
+6.830 | Fall 2010 | Graduate, Undergraduate
+Database Systems
+Menu
+More Info
+Syllabus
+Calendar
+Readings
+The Relational Model
+Schema Design
+Introduction to Database Internals
+Database Operators and Query Processing
+Indexing and Access Methods
+Buffer Pool Design and Memory Management
+Join Algorithms
+Query Optimization
+Transactions and Locking
+Optimistic Concurrency Control
+Recovery
+Recovery (cont.)
+Degrees of Consistency
+C-Store
+Distributed Transactions
+Parallel Databases
+Scientific Databases
+NOSQL
+ORM, DryadLINQ
+Lecture Notes
+Assignments
+Final Project
+Exams
+Syllabus
+Course Meeting Times
+Lectures: 2 sessions / week, 1.5 hours / session
+Overview
+This course is designed to introduce graduate students to the foundations of database systems, focusing on basics such as the relational algebra and data model, query optimization, query processing, and transactions. This is not a course on database design or SQL programming (though we will discuss these issues briefly). It is designed for students who have taken
+6.033
+(or equivalent); no prior database experience is assumed, though students who have taken an undergraduate course in databases are encouraged to attend.
+Classes will consist of lectures and discussions based on readings from the database literature. For 6.830, there will be a semester-long project, as well as two exams and 7 additional assignments — 3 Java-based programming &ldquo;labs&rdquo; and 4 problem sets. For 6.814, exams and assignments are the same as 6.830, but instead of the semester project, there will be 2 additional labs.
+Lectures
+Attendance at lectures is mandatory and you are expected to show up prepared to answer questions and participate in discussion.
+Topics Covered
+Topics related to the engineering and design of database systems, including: data models; database and schema design; schema normalization and integrity constraints; query processing; query optimization and cost estimation; transactions; recovery; concurrency control; isolation and consistency; distributed, parallel, and heterogeneous databases; adaptive databases; trigger systems; key-value stores; object-relational mappings; streaming databases; DB as a service. Lecture and readings from original research papers. 6.830 includes semester-long project and paper.
+Prerequisites
+Students should have taken
+6.033 Introduction to Systems
+or equivalent as well as
+6.006 Introduction to Algorithms
+or equivalent. If you do not have experience in these subjects and would like to take the course, please contact the instructor. Prior database experience is not required.
+Units
+3-0-9. 6.830 is a Grad-H class. It counts as an engineering concentration (EC) subject in Systems. For Area II Ph.D. students in EECS, it satisfies the Systems Technical Qualifying Exam requirement.
+6.814 is an undergraduate class designed to satisfy the Advanced Undergraduate Subject requirement in the EECS curriculum. It counts as an engineering concentration (EC) subject in Systems.
+Grading
+Grades are assigned based on labs, homeworks, 2 quizzes, final project (for 6.830), and class participation. The grading breakdown is as follows:
+6.830
+ACTIVITIES
+PERCENTAGES
+Assignments (problem sets, labs)
+35% total
+Exams
+20% each
+Final project
+20%
+Class participation
+5%
+6.814
+ACTIVITIES
+PERCENTAGES
+Assignments (problem sets, labs)
+50% total
+Exams
+20% each
+Class participation
+10%
+Each student is allowed 3 &ldquo;late days&rdquo;, each of which may be used to turn in one problem set or lab one class meeting later than it is due without penalty. After all three late days are used, assignments will be docked one letter grade for each class meeting they are late.
+Late days may not be used for the final project, lab 5 or exams. Regardless of late days, problem sets must be handed in before problem set solutions are posted, usually a week after the problem set is due.
+Collaboration Policy
+For problem sets and labs, you are allowed to discuss your answers with other students, but please write up your own answers and list your collaborators. Copying solutions from other students is never allowed. For the group project you will work in teams and hand in only one written report.
+Text
+The course readings will primarily be drawn from the following sources:
+Hellerstein, Joseph, and Michael Stonebraker.
+Readings in Database Systems (The Red Book)
+. 4th ed. MIT Press, 2005. ISBN: 9780262693141.
+Ramakrishnan, Raghu, and Johannes Gehrke.
+Database Management Systems
+. 3rd ed. McGraw-Hill, 2002. ISBN: 9780072465631.
+Note that the 3rd edition of
+Readings in Database Systems
+is a substantially different text (it does not include the same readings as the 4th edition.)
+Supplemental Readings
+Please see the
+Readings
+section for other readings and discussion questions.
+6.033 is a prerequisite. You may wish to review the 6.033 class notes, especially during our discussion of transactions and logging.
+Course Info
+Instructors
+Prof. Samuel Madden
+Prof. Robert Morris
+Prof. Michael Stonebraker
+Dr. Carlo Curino
+Departments
+Electrical Engineering and Computer Science
+As Taught In
+Fall
+2010
+Level
+Graduate
+Undergraduate
+Topics
+Business
+Information Technology
+Engineering
+Computer Science
+Algorithms and Data Structures
+Data Mining
+Software Design and Engineering
+Learning Resource Types
+grading
+Exam Solutions
+grading
+Exams
+notes
+Lecture Notes
+assignment
+Programming Assignments
+Download Course
+Over 2,500 courses & materials
+Freely sharing knowledge with learners and educators around the world.
+Learn more
+© 2001–2026 Massachusetts Institute of Technology
+Accessibility
+Creative Commons License
+Terms and Conditions
+Proud member of:
+© 2001–2026 Massachusetts Institute of Technology
+You are leaving MIT OpenCourseWare
+close
+Please be advised that external sites may have terms and conditions,
+including license rights, that differ from ours. MIT OCW is not responsible
+for any content on third party sites, nor does a link suggest an endorsement
+of those sites and/or their content.
+Stay Here
+Continue

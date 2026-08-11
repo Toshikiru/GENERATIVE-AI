@@ -1,0 +1,42 @@
+Course Meeting Times
+Lectures: 1 session / week, 1.5 hours / session
+Prerequisites
+18.06 Linear Algebra
+and familiarity with MATLAB
+®
+.
+Goal
+To dramatically reduce the time to develop complex algorithms for analyzing large data sets.
+Audience
+Data scientists and algorithm developers with a strong background in
+18.06 Linear Algebra
+.
+Brief Description
+This course introduces the Dynamic Distributed Dimensional Data Model (D4M), which is a breakthrough in computer programming that combines the advantages of five distinct processing technologies (sparse linear algebra, associative arrays, fuzzy algebra, distributed arrays, and triple-store / NoSQL databases such as Hadoop HBase and Apache Accumulo) to provide a database and computation system that addresses the problems associated with Big Data. D4M significantly improves search, retrieval, and analysis for any business or service that relies on accessing and exploiting massive amounts of digital data. Evaluations have shown D4M to simultaneously increase computing performance and to decrease the effort required to build applications by as much as 100x. Improved performance translates into faster, more comprehensive services provided by companies involved in healthcare, Internet search, network security, and more. Less, and simplified, coding reduces development times and costs. Moreover, the D4M layered architecture provides a robust environment that is adaptable to various databases, data types, and platforms.
+This course is originally taught in 2012 as “D4M: Signal Processing on Databases,” and additional materials in mathematics of Big Data and machine learning, including lecture notes and class videos, have been added in 2018 and 2020.
+Software Download
+The D4M software can be downloaded from the
+D4M website
+. This software also includes code examples used in class.
+Motivational Material
+Buy at MIT Press
+Kepner, J. and H. Jananthan.
+Mathematics of Big Data: Spreadsheets, Databases, Matrices, and Graphs.
+MIT Press, 2018. ISBN: 9780262038393. [Preview with
+Google Books
+]
+Primary Citation
+Kepner, J. et al. “
+Dynamic Distributed Dimensional Data Model (D4M) Database and Computation System
+.” Presented at ICASSP (International Conference on Acoustics, Speech, and Signal Processing), special session on Signal and Information Processing for “Big Data,” March 25–30, 2012, Kyoto, Japan.
+Additional Resource
+D4M Baseball Demo by Dylan Hutchison
+Currently Supported Environments and Databases
+MATLAB
+and
+GNU Octave (with Octave Java)
+; triplestores (
+Accumulo
+and potentially
+HBase
+); SQL (via JTDS bindings).

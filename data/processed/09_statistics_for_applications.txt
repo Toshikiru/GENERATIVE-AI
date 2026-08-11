@@ -1,0 +1,31 @@
+Course Meeting Times
+Lectures: 2 sessions / week, 1.5 hours / session
+Prerequisites
+Probability theory at the level of
+18.440 Probability and Random Variables
+. Some linear algebra (matrices, vectors, eigenvalues).
+Course Description
+This course offers an in-depth the theoretical foundations for statistical methods that are useful in many applications. The goal is to understand the role of mathematics in the research and development of efficient statistical methods. At the end of this course, students should be able to:
+Formulate a statistical problem in mathematical terms from a real-life situation
+Select appropriate statistical methods
+Understand the implications and limitations of various methods
+Topics Covered
+Introduction to Statistics
+Parametric Inference
+Maximum Likelihood Estimation
+The Method of Moments
+Parametric Hypothesis Testing
+Testing Goodness of Fit
+Regression
+Bayesian Statistics
+Principal Component Analysis
+Generalized Linear Models
+Grading Policy
+ACTIVITIES
+PERCENTAGES
+Homework
+20%
+Midterm Exam
+30%
+Final Exam
+50%
