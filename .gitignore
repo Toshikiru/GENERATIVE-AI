@@ -1,1 +1,11 @@
 /Checkpoint1
+
+# environment / secrets
+.venv/
+.env
+*.env
+__pycache__/
+*.pyc
+
+# regenerable vector index (rebuild from data/embeddings via src/vector_store.py)
+data/chroma_db/
