@@ -29,14 +29,74 @@ EMBED_DIR = ROOT / "data" / "embeddings"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 
-def chunk_text(text: str, sentences_per_chunk: int = 4):
-    sentences = re.split(r"(?<=[.!?])\s+", text)
-    sentences = [s.strip() for s in sentences if s.strip()]
+def _is_section_header(line: str) -> bool:
+    """
+    The cleaned syllabus text still carries one structural signal from the
+    original page: short section-title lines ("Exams", "Grading Policy",
+    "Textbook"...) sit on their own line immediately before the prose that
+    belongs to them. A blind fixed-size sentence window ignores this and
+    can slice a section's prose in half -- e.g. splitting "There will also
+    be a three-hour final... This will count as the remaining 50% of the
+    grade" across two unrelated chunks. Detecting headers lets us chunk by
+    section instead, so a fact and the sentence naming it stay together.
+    """
+    words = line.split()
+    return 1 <= len(words) <= 5 and not line.rstrip().endswith((".", ",", ";", ":"))
+
+
+def _split_long_section(section: str, max_words: int = 120):
+    words = section.split()
+    if len(words) <= max_words:
+        return [section]
+    sentences = re.split(r"(?<=[.!?])\s+", section)
+    chunks, current = [], []
+    for sent in sentences:
+        current.append(sent)
+        if sum(len(s.split()) for s in current) >= max_words:
+            chunks.append(" ".join(current))
+            current = []
+    if current:
+        chunks.append(" ".join(current))
+    return chunks
+
+
+def doc_label(filename: str) -> str:
+    """
+    Turn '11_database_systems.txt' into 'Database Systems'. Once a document
+    is split into chunks, each chunk's course identity would otherwise only
+    live in a sidecar metadata field -- invisible to both the embedding
+    model and BM25 keyword search. A query like "...in the database
+    systems course" then can't out-rank a same-topic chunk from a
+    different course (e.g. every syllabus has near-identical
+    "Collaboration Policy" wording). Prefixing every chunk with its course
+    label bakes that identity into the searchable text itself.
+    """
+    stem = re.sub(r"^\d+_", "", Path(filename).stem)
+    return stem.replace("_", " ").title()
+
+
+def chunk_text(text: str):
+    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+    sections = []
+    header, body = None, []
+
+    def flush():
+        if body:
+            content = (f"{header}\n" if header else "") + " ".join(body)
+            sections.append(content.strip())
+
+    for line in lines:
+        if _is_section_header(line):
+            flush()
+            header, body = line, []
+        else:
+            body.append(line)
+    flush()
+
     chunks = []
-    for i in range(0, len(sentences), sentences_per_chunk):
-        chunk = " ".join(sentences[i:i + sentences_per_chunk])
-        if len(chunk.split()) >= 8:  # skip near-empty fragments
-            chunks.append(chunk)
+    for section in sections:
+        if len(section.split()) >= 8:  # skip near-empty fragments
+            chunks.extend(_split_long_section(section))
     return chunks
 
 
@@ -49,7 +109,8 @@ def main():
     all_sources = []
     for path in sorted(PROCESSED_DIR.glob("*.txt")):
         text = path.read_text(encoding="utf-8")
-        chunks = chunk_text(text)
+        label = doc_label(path.name)
+        chunks = [f"Course: {label}\n{c}" for c in chunk_text(text)]
         all_chunks.extend(chunks)
         all_sources.extend([path.name] * len(chunks))
 

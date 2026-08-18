@@ -36,6 +36,8 @@ COURSES = [
      "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/syllabus"),
     ("11_database_systems",
      "https://ocw.mit.edu/courses/6-830-database-systems-fall-2010/pages/syllabus/"),
+    ("12_linear_algebra",
+     "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/syllabus/"),
 ]
 
 
