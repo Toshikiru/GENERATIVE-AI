@@ -38,6 +38,7 @@ docs/
   framework_comparison.md          LangChain vs. LlamaIndex note (Checkpoint 3, deliverable 13)
   model_customization.md           PEFT/LoRA/QLoRA reasoning (Checkpoint 4, deliverable 15)
   final_technical_report.md        consolidated architecture/pipeline/limitations report (deliverable 19)
+  evidence/docker_deployment_log.txt  build/run/HTTP-check output (Checkpoint 4, deliverable 18)
 Dockerfile, .dockerignore          multi-stage container build (Checkpoint 4, deliverable 17)
 ```
 

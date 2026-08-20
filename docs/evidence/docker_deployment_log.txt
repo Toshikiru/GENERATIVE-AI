@@ -1,0 +1,26 @@
+=== SyllaBot Docker Deployment Evidence ===
+Date: Thu, Aug 20, 2026 11:53:19 AM
+
+--- docker images ---
+IMAGE             ID             DISK USAGE   CONTENT SIZE   EXTRA
+syllabot:latest   c22211e329b8       9.69GB         3.26GB   U    
+
+--- docker ps (container running) ---
+CONTAINER ID   IMAGE      COMMAND                  CREATED              STATUS              PORTS                                         NAMES
+afbd89534a47   syllabot   "streamlit run src/w…"   About a minute ago   Up About a minute   0.0.0.0:8502->8501/tcp, [::]:8502->8501/tcp   syllabot-deploy-test
+
+--- container startup logs ---
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.17.0.3:8501
+  External URL: http://175.158.245.194:8501
+
+  Detected WSL. Using poll-based file watching for better compatibility. To force watchdog, set server.fileWatcherType = "watchdog".
+
+--- HTTP check from host, port 8502 -> container port 8501 ---
+HTTP status: 200

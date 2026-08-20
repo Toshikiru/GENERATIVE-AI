@@ -3,10 +3,8 @@
 IS Professional Elective #4 (Generative AI Systems) — Mini Generative AI
 Capstone Project
 
-**Status note:** this report covers Checkpoints 1-4. The Docker deployment
-evidence section (§7.3) is being finalized alongside local Docker
-verification and will be updated with build/run output and screenshots
-before final submission.
+**Status note:** this report covers Checkpoints 1-4, including verified
+Docker build/run evidence (§7.3).
 
 ---
 
@@ -212,8 +210,14 @@ env file passed via `--env-file`), matching the same runtime-only check
 hosted deployment this would come from the platform's secret store instead
 of a command-line flag.
 
-*(Deployment evidence — build/run confirmation and screenshots — pending;
-see status note at top of document.)*
+**Deployment evidence:** `docker build -t syllabot .` completes cleanly
+end-to-end, including the build-time `RUN python src/ingest.py` step,
+which indexed all 12 source documents into 145 chunks inside the image.
+`docker run -p 8501:8501 -e GEMINI_API_KEY=... syllabot` starts the
+container and serves the Streamlit UI immediately (no cold-start ingest),
+confirmed via `docker ps` (container up, port mapped) and an HTTP 200
+response from the running container. Full command output is captured in
+`docs/evidence/docker_deployment_log.txt`.
 
 ## 8. Limitations
 
