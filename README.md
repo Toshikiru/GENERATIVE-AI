@@ -28,6 +28,7 @@ src/
   api_integration_demo.py     Gemini API + grounded RAG demo (deliverable 7)
   ingest.py                   automated parse->chunk->embed->store pipeline (Checkpoint 3, deliverable 10)
   rag_app.py                  LangChain RAG app w/ hybrid retrieval + conversational memory (deliverables 11-12)
+  web_app.py                  Streamlit chat interface over rag_app.build_chain (Checkpoint 4, deliverable 16)
 docs/
   SyllaBot_Proposal.docx           project proposal (deliverable 1)
   preprocessing_report.md          before/after cleaning examples
@@ -35,6 +36,9 @@ docs/
   prompt_engineering.md            prompt design + hallucination-prevention (deliverable 6)
   distance_metric_comparison.md    metric comparison report (deliverable 9)
   framework_comparison.md          LangChain vs. LlamaIndex note (Checkpoint 3, deliverable 13)
+  model_customization.md           PEFT/LoRA/QLoRA reasoning (Checkpoint 4, deliverable 15)
+  final_technical_report.md        consolidated architecture/pipeline/limitations report (deliverable 19)
+Dockerfile, .dockerignore          multi-stage container build (Checkpoint 4, deliverable 17)
 ```
 
 ## Setup
@@ -71,6 +75,43 @@ python src/ingest.py                      # parse+chunk+embed+store everything i
 python src/rag_app.py                     # interactive multi-turn RAG chat (needs GEMINI_API_KEY)
 python src/rag_app.py --demo              # scripted demo: 5 grounded queries + 1 out-of-scope refusal
 ```
+
+Checkpoint 4 web interface (same RAG chain, browser UI):
+```
+streamlit run src/web_app.py              # needs GEMINI_API_KEY set in the same shell
+```
+
+## Docker
+
+The image is a multi-stage build: dependencies are installed in a
+`builder` stage, then only the installed packages + source code are copied
+into the final image, keeping build tools out of the runtime image. At
+build time it also runs `src/ingest.py` against `data/raw/`, so the
+container starts up with the vector index already populated -- no
+first-request cold start.
+
+Build:
+```
+docker build -t syllabot .
+```
+
+Run (the container needs `GEMINI_API_KEY` at **runtime**, not build time --
+see the secrets note below):
+```
+docker run -p 8501:8501 -e GEMINI_API_KEY="your-key-here" syllabot
+```
+Then open http://localhost:8501.
+
+**Environment variables / secrets handling:** `GEMINI_API_KEY` is never
+baked into the image or committed to the repo (see `.gitignore` /
+`.dockerignore`, and `rag_app.build_chain()`'s explicit runtime check for
+the variable). It's injected only at container-start time via `docker run
+-e` above, or via a `.env` file passed with `docker run --env-file .env`
+(the file itself stays gitignored and dockerignored). For a real
+deployment, this env var would instead come from the hosting platform's
+secret store (e.g. a Streamlit Community Cloud / Render / Railway secrets
+panel) rather than a flag on the command line, so the key never appears in
+shell history or process listings on the host.
 
 ## Data Source
 

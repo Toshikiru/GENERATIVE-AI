@@ -1,0 +1,12 @@
+.venv/
+.git/
+__pycache__/
+*.pyc
+.env
+*.env
+data/chroma_db/
+data/processed/
+data/embeddings/
+docs/
+*.md
+GenAI Capstone Semester Project Guide.docx (1).pdf
