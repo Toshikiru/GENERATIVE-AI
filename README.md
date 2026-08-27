@@ -45,7 +45,7 @@ Dockerfile, .dockerignore          multi-stage container build (Checkpoint 4, de
 ## Setup
 
 ```
-py -3.13 -m venv .venv
+py -3.14 -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 ```
