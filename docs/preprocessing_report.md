@@ -96,7 +96,7 @@ Literacy
 | 01_mathematics_for_computer_science.txt | 1131 | 854 | 40 | 1015 |
 | 02_introduction_to_psychology.txt | 1354 | 824 | 51 | 943 |
 | 03_evolutionary_psychology.txt | 372 | 146 | 6 | 168 |
-| 04_matrix_methods_data_analysis.txt | 474 | 205 | 14 | 235 |
+| 04_matrix_methods_data_analysis.txt | 467 | 198 | 14 | 226 |
 | 05_machine_learning_6867.txt | 1270 | 987 | 60 | 1148 |
 | 06_computational_thinking_data_science.txt | 1170 | 889 | 46 | 979 |
 | 07_mathematics_of_big_data.txt | 657 | 375 | 20 | 446 |
@@ -104,3 +104,4 @@ Literacy
 | 09_statistics_for_applications.txt | 369 | 144 | 5 | 158 |
 | 10_intro_cs_programming_python.txt | 1149 | 818 | 42 | 912 |
 | 11_database_systems.txt | 1047 | 657 | 41 | 779 |
+| 12_linear_algebra.txt | 685 | 424 | 23 | 503 |

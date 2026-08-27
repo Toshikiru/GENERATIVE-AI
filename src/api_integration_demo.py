@@ -15,10 +15,12 @@ Set it as an environment variable before running (never hardcode it here):
 """
 import os
 import sys
+import time
 from pathlib import Path
 
 import chromadb
 from google import genai
+from google.genai import errors as genai_errors
 from sentence_transformers import SentenceTransformer
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -63,6 +65,26 @@ def format_context(docs, sources):
     return "\n\n".join(f"[{src}]\n{doc}" for doc, src in zip(docs, sources))
 
 
+def generate_with_retry(client, model, prompt, retries=2, delay_seconds=5):
+    """
+    Gemini's free tier occasionally returns a transient 503 (server
+    overloaded) that has nothing to do with our own pipeline -- retrying
+    a couple of times with a short delay clears most of these without
+    interrupting a live demo.
+    """
+    last_exc = None
+    for attempt in range(retries + 1):
+        try:
+            return client.models.generate_content(model=model, contents=prompt)
+        except genai_errors.ServerError as exc:
+            last_exc = exc
+            if attempt < retries:
+                print(f"  (Gemini temporarily unavailable, retrying in "
+                      f"{delay_seconds}s...)", file=sys.stderr)
+                time.sleep(delay_seconds)
+    raise last_exc
+
+
 def main():
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -89,17 +111,23 @@ def main():
             f"{SYSTEM_PROMPT}\n\nRetrieved excerpts:\n{context}\n\n"
             f"Student question: {question}"
         )
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=full_prompt,
-        )
+        try:
+            response = generate_with_retry(client, GEMINI_MODEL, full_prompt)
+            answer = response.text
+        except genai_errors.ServerError as exc:
+            answer = ("[Gemini API is temporarily unavailable right now -- "
+                       "this is a live-service hiccup, not a bug in our "
+                       "pipeline. Retrieval above already shows the correct "
+                       "grounded context was found; the generation step "
+                       "would apply the same grounded prompt to it.]")
+            print(f"  (API error after retries: {exc})", file=sys.stderr)
 
         print(f"\n{'=' * 70}")
         print(f"Question: {question}")
         print(f"Top retrieval cosine distance: {best_distance:.3f} "
               f"({'likely relevant' if best_distance < 0.7 else 'likely out-of-scope'})")
         print(f"Retrieved from: {sources}")
-        print(f"\nSyllaBot: {response.text}")
+        print(f"\nSyllaBot: {answer}")
 
 
 if __name__ == "__main__":

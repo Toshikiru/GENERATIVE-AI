@@ -1,0 +1,19 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 3114.31it/s]
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+
+======================================================================
+Question: How much is the final exam worth in the microeconomics course?
+Top retrieval cosine distance: 0.216 (likely relevant)
+Retrieved from: ['08_principles_of_microeconomics.txt', '08_principles_of_microeconomics.txt', '08_principles_of_microeconomics.txt']
+
+SyllaBot: According to the Principles of Microeconomics syllabus, the final exam counts as 50% of your grade. 
+
+*(Source: `08_principles_of_microeconomics.txt`)*
+
+======================================================================
+Question: What is the capital of France?
+Top retrieval cosine distance: 0.867 (likely out-of-scope)
+Retrieved from: ['10_intro_cs_programming_python.txt', '10_intro_cs_programming_python.txt', '10_intro_cs_programming_python.txt']
+
+SyllaBot: I am sorry, but I can only answer questions related to your course syllabi. If you have a question about your course schedule, policies, or assignments, please feel free to ask!
