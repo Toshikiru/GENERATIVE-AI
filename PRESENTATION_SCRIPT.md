@@ -1,4 +1,4 @@
-# SyllaBot Defense Guide (Explain-Like-I'm-5 Edition)
+# SyllaBot Defense Guide 
 ### Checkpoint 1 & Checkpoint 2 only
 
 This is your cheat sheet for defense. Every part is explained in the
